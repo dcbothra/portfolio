@@ -27,10 +27,10 @@ export const metadata: Metadata = {
   creator: "Devchand Bothra",
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.png", type: "image/png" },
+      { url: "/robot_generic.ico", sizes: "any" },
+      { url: "/robot_generic.png", type: "image/png" },
     ],
-    apple: [{ url: "/apple-touch-icon.png" }],
+    apple: [{ url: "/robot_generic.png" }],
   },
   openGraph: {
     type: "website",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "Devchand Bothra Portfolio",
     images: [
       {
-        url: "/favicon.ico",
+        url: "/robot_generic.ico",
         width: 1200,
         height: 630,
         alt: "Devchand Bothra Portfolio Preview",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     description:
       "Portfolio of Devchand Bothra, Robotics & AI Engineer specializing in Robotics, SLAM, and AI-driven systems.",
     creator: "@yourTwitterHandle",
-    images: ["/favicon.ico"],
+    images: ["/robot_generic.ico"],
   },
   robots: {
     index: true,
